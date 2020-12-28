@@ -1,0 +1,102 @@
+{
+	"id": "5616e917-dc57-43d7-980f-471c4e4d8096",
+	"name": "OpenWeatherMap",
+	"timestamp": "2020-12-28T06:52:29.676Z",
+	"collection_id": "4c2efd5f-d682-447f-8a11-26e397fdcc67",
+	"folder_id": 0,
+	"environment_id": "7779bd5f-fb83-406f-8ba6-9e42d80f69f9",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b7b17ede-75e6-4c73-95db-e85d5eabda8c",
+			"name": "get_id",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is ok, response is json": true
+			},
+			"testPassFailCounts": {
+				"Status is ok, response is json": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				187,
+				91,
+				96,
+				95
+			],
+			"allTests": [
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				}
+			]
+		},
+		{
+			"id": "0b45c639-00f6-46e4-83f0-ae60ee06d463",
+			"name": "get_weather",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is ok, response is json": true
+			},
+			"testPassFailCounts": {
+				"Status is ok, response is json": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				115,
+				93,
+				93,
+				90
+			],
+			"allTests": [
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 860,
+	"collection": {
+		"requests": [
+			{
+				"id": "b7b17ede-75e6-4c73-95db-e85d5eabda8c",
+				"method": "GET"
+			},
+			{
+				"id": "0b45c639-00f6-46e4-83f0-ae60ee06d463",
+				"method": "GET"
+			}
+		]
+	}
+}
